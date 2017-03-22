@@ -1,0 +1,6 @@
+<!--<div id="tooltip" class="glyphicon glyphicon-question-sign">-->
+<div id="tooltip" [ngClass]="isVisible ? 'glyphicon glyphicon-question-sign': 'glyphicon glyphicon-remove-circle'">
+    <div id="tooltipElement" #tooltipElement class="tooltiptext">    <h3>header</h3>
+    <hr/>
+{{tooltipText}}</div>
+</div>

@@ -1,0 +1,16 @@
+<div class="media">
+<div *ngFor="let tweet of tweets; let i = index">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="{{tweet.image}}" alt="person">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{tweet.handle}}<span id="mention">{{tweet.mention}}</span></h4>
+    {{tweet.message}}
+    <br/>
+    <like [likeCounter]="tweet.likeCount"></like>
+    </div>
+    <br/>
+  </div>
+</div>

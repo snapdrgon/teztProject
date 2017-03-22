@@ -1,0 +1,6 @@
+<div class="voteControl">
+<i id='upVote' [ngClass] = "voteCnt.clickCount === 1 ? 'glyphicon glyphicon-menu-up gold' : 'glyphicon glyphicon-menu-up grey'" (click)='onClickUp()'></i>
+<span>{{voteCnt.count}}</span>
+<i id='downVote' [ngClass] = "voteCnt.clickCount === -1 ? 'glyphicon glyphicon-menu-down red' : 'glyphicon glyphicon-menu-down grey'" (click)='onClickDown()'></i>
+</div>
+ 

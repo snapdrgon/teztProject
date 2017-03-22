@@ -1,0 +1,36 @@
+<table style="width:100%">
+    <tr>
+                   <th class="table-cell"></th>
+                    <th class="table-cell">U.S.Mail</th>
+                    <th class="table-cell" >E-Mail</th>
+    </tr>
+    <div><hr></div> 
+        <tr #{{testElement}}>
+            <td class="table-cell"><label>Stuff a</label></td>
+            <td class="table-cell"><input name="optionsa" type="radio" [(ngModel)]="isChecked[0]" [value]="1"
+                [checked]="isChecked[0]==='1'" /></td>
+            <td class="table-cell"><input name="optionsa" type="radio" [(ngModel)]="isChecked[0]" [value]="2"
+                [checked]="isChecked[0]==='2'" /><td>
+        </tr>
+        <tr>
+            <td class="table-cell"><label>Stuff b</label></td>
+            <td class="table-cell"><input name="optionsb" type="radio" [(ngModel)]="isChecked[1]" [value]="3"
+                [checked]="isChecked[1]==='3'" /></td>
+            <td class="table-cell"><input name="optionsb" type="radio" [(ngModel)]="isChecked[1]" [value]="4"
+                [checked]="isChecked[1]==='4'" /></td>
+        </tr>
+        <tr>
+            <td class="table-cell"><label>Stuff c</label></td>
+            <td class="table-cell"><input name="optionsc" type="radio" [(ngModel)]="isChecked[2]" [value]="5"
+                [checked]="isChecked[2]==='5'" /></td>
+            <td class="table-cell"><input name="optionsc" type="radio" [(ngModel)]="isChecked[2]" [value]="6"
+                [checked]="isChecked[3]==='6'" /></td>
+        </tr>
+        <tr>
+            <td class="table-cell"><label>Stuff d</label></td>
+            <td class="table-cell"><input name="optionsd" type="radio" [(ngModel)]="isChecked[3]" [value]="7"
+                [checked]="isChecked[3]==='7'" /></td>
+            <td class="table-cell"><input name="optionsd" type="radio" [(ngModel)]="isChecked[3]" [value]="8"
+                [checked]="isChecked[0]==='8'" /></td>
+        </tr>
+</table>

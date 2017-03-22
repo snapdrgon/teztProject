@@ -1,0 +1,27 @@
+.voteControl {
+    width:20px;
+    top: 5px;
+    text-align: center;
+    left:40px;
+    color:lightslategrey;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+.grey {
+    color:grey;
+}
+
+.red {
+    color:red;
+}
+
+#upVote {
+    cursor: pointer
+}
+
+#downVote {
+    cursor: pointer
+}
