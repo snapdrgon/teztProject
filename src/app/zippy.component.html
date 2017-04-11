@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{title}}</h3>
+    <div [ngClass]="hideBody? 'glyphicon glyphicon-chevron-up pointPos': 'glyphicon glyphicon-chevron-down pointPos'" 
+        (click)='onClick()'>
+    </div>
+  </div>
+  <div *ngIf="hideBody" class="panel-body">
+      <bs-panel>
+    <ng-content></ng-content>
+    </bs-panel>
+  </div>
+</div>
